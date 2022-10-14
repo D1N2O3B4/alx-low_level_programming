@@ -22,7 +22,7 @@ if (i == 57 && j == 56)
 {
 break;
 }
-putchar(",");
+putchar(',');
 }
 i++;
 }
