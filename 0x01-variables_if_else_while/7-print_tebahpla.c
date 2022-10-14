@@ -5,8 +5,9 @@
  */
 int main(void)
 {
+int i;
 char alpharev[26] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 26; i >= 0; i--)
+for (i = 25; i >= 0; i--)
 {
 putchar(alpharev[i]);
 }
