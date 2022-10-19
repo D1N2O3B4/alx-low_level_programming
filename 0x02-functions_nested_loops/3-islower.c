@@ -1,30 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - check code
- * _islower - checks if lower or not
- * Return: Always 0
+ * _islower -> checks if lower or not
+ * Return: On success 1 else 0
  */
-int _islower(int c);
-int main(void)
-{
-int r;
-r = _islower('H');
-putchar(r + '0');
-r = _islower('o');
-putchar(r + '0');
-r = _islower(108);
-putchar(r + '0');
-putchar('\n');
-return (0);
-}
 int _islower(int c)
 {
-if (islower(c) == 0)
+if (c >= 'a' && c <= 'z')
 {
-return (0);
+return (1);
 }
 else
 {
-return (1);
+return (0);
 }
 }
