@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _islower -> checks if lower or not
- * Return: On success 1 else 0
+ * @c: is a character
+ * Return: Returns 1 or 0
  */
 int _islower(int c)
 {
