@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - 
  * Return: Always 0
@@ -15,7 +15,7 @@ char alp [26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
-putchar(alp[i]);
+_putchar(alp[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
