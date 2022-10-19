@@ -6,5 +6,12 @@
  */
 int print_last_digit(int i)
 {
-return (i % 10);
+if (i < 0)
+{
+int y;
+i = -i;
+y = i % 10;
+_putchar(y + '0');
+}
+return (y);
 }
