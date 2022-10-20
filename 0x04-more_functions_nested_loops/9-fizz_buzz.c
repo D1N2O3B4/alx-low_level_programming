@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - print 1 to 100 fizz buzz and fizzbuzz
  * Return: Always 0
